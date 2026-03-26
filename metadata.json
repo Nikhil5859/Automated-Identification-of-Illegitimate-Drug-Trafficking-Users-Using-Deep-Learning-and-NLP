@@ -1,0 +1,5 @@
+{
+  "name": "Social Sentry AI",
+  "description": "An AI-powered dashboard to analyze social media data for potential illicit activities using natural language processing and image analysis.",
+  "requestFramePermissions": []
+}
