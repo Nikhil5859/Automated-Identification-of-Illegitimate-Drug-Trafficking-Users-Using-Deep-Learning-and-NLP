@@ -1,20 +1,112 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚨 Social Sentry AI
 
-# Run and deploy your AI Studio app
+### Automated Identification of Illegitimate Drug Trafficking Users Using Deep Learning and NLP
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IzOESQ7zyMScXzm9nVTUA3a8ELRBilrm
+## 📌 Description
 
-## Run Locally
+A multimodal AI framework that detects illicit drug trafficking activities on social media by combining **Natural Language Processing (NLP)** and **Convolutional Neural Networks (CNN)**. The system analyzes both textual and visual content to improve detection accuracy and reduce false positives.
 
-**Prerequisites:**  Node.js
+---
 
+## 🎯 Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* 🔍 Detects drug-related activities from social media data
+* 🧠 Combines text and image analysis (multimodal AI)
+* 📊 Uses Random Forest for risk classification
+* ⚡ Lightweight and suitable for real-time monitoring
+* 🔐 Privacy-aware data processing
+
+---
+
+## 🏗️ System Architecture
+
+1. Data Collection (Social Media Platforms)
+2. Data Preprocessing (Text & Images)
+3. Feature Extraction (NLP + CNN)
+4. Feature Fusion
+5. Classification (Random Forest)
+6. Result Visualization
+
+---
+
+## 📊 Dataset
+
+* ~10,000 samples
+* Platforms: Telegram, Instagram, WhatsApp
+* Classes:
+
+  * Legitimate
+  * Suspicious
+  * Illegitimate
+* Split: 70% Train / 15% Validation / 15% Test
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* TensorFlow / PyTorch
+* Scikit-learn
+* NLP (NLTK / spaCy)
+* CNN (MobileNet)
+* React.js (Frontend)
+* Tailwind CSS
+
+---
+
+## 📈 Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to project folder
+cd your-repo-name
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the project
+python main.py
+```
+
+---
+
+## 📄 Research Paper
+
+This project is based on the research paper:
+**"Automated Identification of Illegitimate Drug Trafficking Users Using Deep Learning and NLP"**
+
+---
+
+## 👨‍💻 Authors
+
+* Nikhil
+* Team Members
+
+---
+
+## 📌 Future Scope
+
+* Integration with real-time social media APIs
+* Multilingual detection support
+* Advanced deep learning models (Transformers)
+* Improved image recognition
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates how combining NLP and deep learning can significantly improve the detection of illicit activities on social media, making it useful for law enforcement and digital monitoring systems.
